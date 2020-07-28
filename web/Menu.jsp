@@ -16,19 +16,19 @@
                 <tbody>
                     <tr>                   
                         <td>Listar Persona</td>          
-                        <td><a href="Persona.jsp">Mostrar</a></td>         
+                        <td><a href="DatosPersona.jsp">Mostrar</a></td>         
                     </tr>        
                     <tr>                   
                         <td>Listar Area</td>          
-                        <td><a href="Area.jsp">Mostrar</a></td>         
+                        <td><a href="DatosArea.jsp">Mostrar</a></td>         
                     </tr>                 
                     <tr>
                         <td>Listar Rol</td>
-                        <td><a href="Rol.jsp">Mostrar</a></td>
+                        <td><a href="DatosRol.jsp">Mostrar</a></td>
                     </tr>
                     <tr>                   
                         <td>Lista Sugerencias</td>          
-                        <td><a href="Sugerencias.jsp">Mostrar</a></td>         
+                        <td><a href="DatosSugerencias.jsp">Mostrar</a></td>         
                     </tr>                    
                     <tr align="center">
                         <td colspan="2"><a href="Login.jsp">Volver al Login</a></td>        
