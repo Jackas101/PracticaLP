@@ -27,7 +27,7 @@
                         <td><a href="DatosRol.jsp">Mostrar</a></td>
                     </tr>
                     <tr>                   
-                        <td>Lista Sugerencias</td>          
+                        <td>Lista de sugerencias</td>          
                         <td><a href="DatosSugerencias.jsp">Mostrar</a></td>         
                     </tr>                    
                     <tr align="center">
