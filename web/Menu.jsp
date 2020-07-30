@@ -7,7 +7,7 @@
     </head>
     <body>
         <form name="f_datos" action="valida.jsp" method="POST">
-            <table border="1" cellspacing="0" cellpagging="0">
+            <table align="center" border="1" cellspacing="0" cellpagging="0">
                 <thead>
                     <tr>
                         <th colspan="2">TABLAS JSP </th>
@@ -27,7 +27,7 @@
                         <td><a href="DatosRol.jsp">Mostrar</a></td>
                     </tr>
                     <tr>                   
-                        <td>Lista de sugerencias</td>          
+                        <td>Lista de sugerencias </td>          
                         <td><a href="DatosSugerencias.jsp">Mostrar</a></td>         
                     </tr>                    
                     <tr align="center">
