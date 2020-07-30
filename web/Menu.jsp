@@ -3,11 +3,12 @@
 <html>
      <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Menu</title>
+        <link href="css/estilo.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         <form name="f_datos" action="valida.jsp" method="POST">
-            <table align="center" border="1" cellspacing="0" cellpagging="0">
+            <table align="center" border="1" cellspacing="0" cellpagging="0" class="general">
                 <thead>
                     <tr>
                         <th colspan="2">TABLAS JSP </th>

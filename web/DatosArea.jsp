@@ -6,7 +6,9 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Datos Persona</title>
+        <title>Datos Area</title>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <link href="css/estilo.css" rel="stylesheet" type="text/css"/>
         <%!
             String consulta;
             Connection cn;
@@ -180,8 +182,8 @@
                         <td><%out.print(rs.getString(2));%></td>
                         <td><%out.print(rs.getString(3));%></td>
                         <td><%out.print(rs.getString(4));%></td>
-                       <td><a href="DatosArea.jsp?f_accion=E&f_idarea=<%out.print(ide);%>">Eliminar</a></td>
-                        <td><a href="DatosArea.jsp?f_accion=M1&f_idarea=<%out.print(ide);%>">Editar</a></td>
+                       <td><a href="DatosArea.jsp?f_accion=E&f_idarea=<%out.print(ide);%>"><span class="icon-bin"></span></a></td>
+                        <td><a href="DatosArea.jsp?f_accion=M1&f_idarea=<%out.print(ide);%>"><span class="icon-loop"></span></a></td>
 
                     </tr>                    
                     <%

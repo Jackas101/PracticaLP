@@ -6,9 +6,9 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link href="css/Estilosparatabla.css" rel="stylesheet" type="text/css"/>
-        <link href="css/estiloparaform.css" rel="stylesheet" type="text/css"/>
-        <title>Datos Persona</title>
+        <title>Datos Rol</title>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <link href="css/estilo.css" rel="stylesheet" type="text/css"/>
         <%!
             String consulta;
             Connection cn;
@@ -37,7 +37,6 @@
                                 + " from rol "
                                 + " where"
                                 + " idrol = " + s_idrol + "; ";
-                    
                     //out.print(consulta);
                     pst = cn.prepareStatement(consulta);
                     rs = pst.executeQuery();
@@ -45,7 +44,7 @@
         %>
         
         <form name="EditarRolForm" action="DatosRol.jsp" method="GET">
-            <table border="0" align="center" class="general">
+            <table border="0" align="center" >
                 <thead>
                     <tr>
                         <th colspan="2">Editar Rol</th>
@@ -84,7 +83,7 @@
             <table border="0" align="center" class="general">
                 <thead>
                     <tr>
-                        <th colspan="2" class="general">Agregar Rol</th>
+                        <th colspan="2" >Agregar Rol</th>
                         
                     </tr>
                 </thead>
@@ -161,7 +160,6 @@
                                + "  estado = '"+ s_estado +"' "
                                 + "  where "
                                 + "  idrol = "+ s_idrol +"; ";
-                         
                         //out.print(consulta);
                         pst = cn.prepareStatement(consulta);
                         pst.executeUpdate();
@@ -184,8 +182,8 @@
                         <td><%out.print(rs.getString(2));%></td>
                         <td><%out.print(rs.getString(3));%></td>
                         <td><%out.print(rs.getString(4));%></td>
-                       <td><a href="DatosRol.jsp?f_accion=E&f_idarea=<%out.print(ide);%>">Eliminar</a></td>
-                        <td><a href="DatosRol.jsp?f_accion=M1&f_idarea=<%out.print(ide);%>">Editar</a></td>
+                       <td><a href="DatosRol.jsp?f_accion=E&f_idrol=<%out.print(ide);%>"><span class="icon-bin"></span></a></td>
+                        <td><a href="DatosRol.jsp?f_accion=M1&f_idrol=<%out.print(ide);%>"><span class="icon-loop"></span></a></td>
 
                     </tr>                    
                     <%

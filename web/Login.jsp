@@ -3,15 +3,17 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Login</title>
+        
+        <link href="css/estilo.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         <form name="f_datos" action="Valida.jsp" method="POST">
-            <table border="1" cellspacing="0" celpagging="0">
+            <table align="center"border="1" cellspacing="0" celpagging="0" class="general" >
                 <thead>
                     <tr>
                         <th colspan="2">INGRESE USUARIO Y CLAVE</th>
-                        <th></th>
+                        
                     </tr>
                 </thead>
                 <tbody>
@@ -25,7 +27,7 @@
                     </tr>
                     <tr align="center">
                         <td colspan="2"><input type="submit" value="Ingresar" name="f_ingresar" /></td>
-                        <td></td>
+                        
                     </tr>
                 </tbody>
             </table>
